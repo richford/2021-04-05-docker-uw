@@ -7,8 +7,8 @@ venue: "University of Washington"        # brief name of the institution that ho
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
-latitude: "0"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "0"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: "47.65336567368386"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-122.31179854300458"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Apr 5-6, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -63,6 +63,8 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
+<h2 id="signup">Registration</h2>
+To apply for this workshop, <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAUvqLg_6gWBcjwfLLM3BhyqPeg37lKztqVY0lKxd84WMNg/viewform?usp=sf_link" target="_blank">please fill this google form</a>. The lesson is free and first-come-first-serve. Spots are limited. Filling out the form does not guarantee attendance at the workshop. We will contact you via email if we are able to offer you a spot in the workshop.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
