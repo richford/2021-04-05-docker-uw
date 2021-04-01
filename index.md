@@ -64,7 +64,7 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 <h2 id="signup">Registration</h2>
-To apply for this workshop, <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAUvqLg_6gWBcjwfLLM3BhyqPeg37lKztqVY0lKxd84WMNg/viewform?usp=sf_link" target="_blank">please fill this google form</a>. The lesson is free and first-come-first-serve. Spots are limited. Filling out the form does not guarantee attendance at the workshop. We will contact you via email if we are able to offer you a spot in the workshop.
+Registration for this workshop is now closed.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
